@@ -1,6 +1,6 @@
 main:
   - name: products
     identifier: products
-    url: products
+    url: /products/
     params:
       icon: '<i class="fas fa-fw fa-user"></i>'

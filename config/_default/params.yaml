@@ -332,4 +332,19 @@ author:
     # paypal: ""
     # rss: "" # Remove RSS
 
+related:
+  enabled: true  # 启用相关文章
+  count: 5       # 显示数量
+  term: "tags"   # 关联方式：tags（标签）或 categories（分类）
+  orderBy: "date"  # 排序方式：date（日期）或 weight（权重）
+  weight: 100    # 权重
+  includeNewer: true  # 是否包含较新的文章
+  indices:       # 索引规则
+    - name: tags        # 使用标签
+      weight: 100      # 标签权重
+    - name: categories  # 使用分类
+      weight: 80       # 分类权重
+    - name: series     # 使用专栏
+      weight: 60       # 专栏权重
+
 
