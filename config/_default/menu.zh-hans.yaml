@@ -1,6 +1,6 @@
 main:
-  - name: 文档
-    identifier: documentations
-    url: https://hbs.razonyang.com/v1/zh-hans/docs/
+  - name: 关于我
+    identifier: 关于我
+    url: https://www.fangwuxin.com/
     params:
-      icon: '<i class="fas fa-fw fa-book"></i>'
+      icon: '<i class="fas fa-fw fa-user"></i>'
