@@ -55,7 +55,7 @@ googleAdsense:
 # socialShare: false # disable social network sharing
 # searchBar: false # disable search-bar
 
-# poweredBy: false # Whether to show powered by.
+poweredBy: false # Whether to show powered by.
 
 # readingTime: false # Whether to display the reading time.
 # postDate: false # Whether to display the post date in the post meta section.
@@ -172,6 +172,7 @@ creativeCommons:
   #moderation: false # Same as Staticman's moderation.
 
 # See https://giscus.app
+# 无后端服务增加评论功能
 giscus:
   repo: "psychosis-Jo/my-blog" # required.
   repoId: "R_kgDONvSLmQ" # required.
@@ -314,12 +315,14 @@ author:
   name: 方勿信
   # avatar: images/profile.png # Avatar image. Default to "images/profile.webp".
   bio: '终身学习小趴菜/理想主义的赌徒/AI全栈工程师'
+  about: https://www.fangwuxin.com 
   # company: Company # HTML markup are supported, such as: <a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>.
   # location: Earth # HTML markup are supported, such as: <a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>.
   # # about: https://razonyang.com # The external about page. The internal about page will be used if not set.
-  # params: {
-  #   # layout: compact
-  # }
+  # params: 
+  #   class: "nav-link text-purple"
+  #   layout: compact
+  
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   social:
     email: fangwuxin99@gmail.com
@@ -328,4 +331,5 @@ author:
     # patreon: ""
     # paypal: ""
     # rss: "" # Remove RSS
+
 

@@ -1,6 +1,6 @@
 main:
-  - name: aboutme
-    identifier: aboutme
-    url: https://www.fangwuxin.com/
+  - name: products
+    identifier: products
+    url: products
     params:
       icon: '<i class="fas fa-fw fa-user"></i>'
