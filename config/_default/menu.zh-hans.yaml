@@ -1,6 +1,7 @@
 main:
   - name: 产品
     identifier: 产品
-    url: products
+    url: /products/
     params:
       icon: '<i class="fas fa-fw fa-project-diagram"></i>'
+
