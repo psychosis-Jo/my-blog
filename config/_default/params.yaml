@@ -7,8 +7,8 @@ mainSections:
 
 # titleSeparator: '|' # Title separator. Default to -.
 
-description: “个人技术博客，分享编程经验、学习笔记和技术见解。主要关注Web开发、AI、Python编程等领域的技术文章。”
-keywords: “技术博客, 编程笔记, Web开发, AI, Python, 学习笔记, 技术分享, 学习分享, 软件开发”
+description: "个人技术博客，分享编程经验、学习笔记和技术见解。主要关注Web开发、AI、Python编程等领域的技术文章。"
+keywords: "技术博客, 编程笔记, Web开发, AI, Python, 学习笔记, 技术分享, 学习分享, 软件开发"
 # images:
 #   - site-feature-image.jpg
 
@@ -325,3 +325,5 @@ author:
     patreon: ""
     paypal: ""
     rss: "" # Remove RSS
+
+hasCJKLanguage: true  # 启用中日韩文字支持
