@@ -19,7 +19,7 @@ keywords: “技术博客, 编程笔记, Web开发, AI, Python, 学习笔记, �
 # logo: false # Disable Logo
 brand: 方勿信
 
-palette: orange
+palette: purple
  # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # Available palettes. Default to ALL. Empty array means disable.
 # palettes:
@@ -308,9 +308,9 @@ social:
   tipeee: yourtipeeeaccount-fr
 
 author:
-  name: Razon Yang
+  name: 方勿信
   # avatar: images/profile.png # Avatar image. Default to "images/profile.webp".
-  bio: 'Gopher, PHPer, Full Stack Engineer.'
+  bio: '终身学习小趴菜, 理想主义的赌徒, AI全栈工程师.'
   company: Company # HTML markup are supported, such as: <a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>.
   location: Earth # HTML markup are supported, such as: <a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>.
   # about: https://razonyang.com # The external about page. The internal about page will be used if not set.
@@ -319,9 +319,9 @@ author:
   }
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   social:
-    email: razonyang@gmail.com
-    github: razonyang/hugo-theme-bootstrap
-    twitter: razonyang
-    patreon: razonyang
-    paypal: razonyang
+    email: fangwuxin99@gmail.com
+    github: psychosis-Jo
+    twitter: wuxin_fang
+    patreon: ""
+    paypal: ""
     rss: "" # Remove RSS
