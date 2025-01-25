@@ -174,17 +174,16 @@ creativeCommons:
 # See https://giscus.app
 # 无后端服务增加评论功能
 giscus:
-  repo: "psychosis-Jo/my-blog" # required.
-  repoId: "R_kgDONvSLmQ" # required.
-  category: "General" # required.
-  categoryId: "DIC_kwDONvSLmc4CmVKq" # required.
-  # theme: "dark" # Default to auto.
-  # mapping: "title" # Default to pathname.
-  # inputPosition: "bottom" # Default to top.
-  # reactions: false # Disable reactions.
-  # metadata: true # Emit discussion metadata.
-  # lang: "en" # Specify language, default to site language.
-  # lazyLoading: false # Default to true.
+  repo: "psychosis-Jo/my-blog"
+  repoId: "R_kgDONvSLmQ"
+  category: "General"
+  categoryId: "DIC_kwDONvSLmc4CmVKq"
+  mapping: pathname
+  strict: 0
+  reactionsEnabled: 1
+  emitMetadata: 0
+  inputPosition: bottom
+  lang: zh-CN
 
 search:
   paginate: 5 # Pagination. Default to 10.
@@ -346,5 +345,9 @@ related:
       weight: 80       # 分类权重
     - name: series     # 使用专栏
       weight: 60       # 专栏权重
+
+comments:
+  enabled: true
+  provider: giscus
 
 

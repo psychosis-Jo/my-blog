@@ -1,7 +1,9 @@
 main:
-  - name: 产品
-    identifier: 产品
-    url: /products/
+  - name: 关于我
+    url: https://www.fangwuxin.com
     params:
-      icon: '<i class="fas fa-fw fa-project-diagram"></i>'
+      icon: '<i class="fas fa-fw fa-user"></i>'
+
+
+
 

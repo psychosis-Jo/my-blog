@@ -1,6 +1,5 @@
 main:
-  - name: products
-    identifier: products
-    url: /products/
-    params:
-      icon: '<i class="fas fa-fw fa-user"></i>'
+  - name: about
+    url: https://www.fangwuxin.com
+
+
