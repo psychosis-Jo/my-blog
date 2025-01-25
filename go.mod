@@ -1,5 +1,5 @@
-module github.com/razonyang/hugo-theme-bootstrap-skeleton
+module github.com/psychosis-Jo/my-blog
 
 go 1.18
 
-require github.com/razonyang/hugo-theme-bootstrap v1.7.2 // indirect
+require github.com/razonyang/hugo-theme-bootstrap v1.9.3 // indirect

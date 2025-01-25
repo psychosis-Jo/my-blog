@@ -1,7 +1,7 @@
-baseURL: https://hbs-skeleton.netlify.app/
-title: Hugo Bootstrap Skeleton
-copyright: 'Copyright © 2016-{year} Razon Yang. All Rights Reserved.'
-defaultContentLanguage: en
+baseURL: https://blog.fangwuxin.com/
+title: 方勿信的取经之路
+copyright: 'Copyright © 2025-{year} Wuxin Fang. All Rights Reserved.'
+defaultContentLanguage: zh-hans
 # hasCJKLanguage: true # Uncomment it if your content contains Chinese/Japanese/Korean Languages.
 # defaultContentLanguageInSubdir: true
 # disableLanguages:
@@ -34,7 +34,7 @@ permalinks:
 module:
   imports:
     - path: github.com/razonyang/hugo-theme-bootstrap
-#   proxy: https://goproxy.cn
+  proxy: https://goproxy.cn
 
 # services:
 #   disqus:
