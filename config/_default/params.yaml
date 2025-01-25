@@ -173,10 +173,10 @@ creativeCommons:
 
 # See https://giscus.app
 giscus:
-  repo: "razonyang/hugo-theme-bootstrap-skeleton" # required.
-  repoId: "R_kgDOHJi95g" # required.
+  repo: "psychosis-Jo/my-blog" # required.
+  repoId: "R_kgDONvSLmQ" # required.
   category: "General" # required.
-  categoryId: "DIC_kwDOHJi95s4CTy6q" # required.
+  categoryId: "DIC_kwDONvSLmc4CmVKq" # required.
   # theme: "dark" # Default to auto.
   # mapping: "title" # Default to pathname.
   # inputPosition: "bottom" # Default to top.
@@ -229,7 +229,7 @@ fontSize:
 pwa:
   manifest:
     # name:  # Default to site title.
-    short_name: HBS
+    short_name: FWX
     # display: fullscreen # Default to standalone.
     # description:  # Default to site description.
     # theme_color: 
@@ -243,15 +243,16 @@ pwa:
     #   sizes: 144x144
     #   src: /images/icons/icon-144x144.png
 
+# 用于收集访客提交的联系信息，它会将访客从联系我们页面提交的表单数据发送到指定的邮箱，而无需部署后端服务。
 contact:
-  endpoint: https://getform.io/f/56041c81-9e03-4c24-b9c5-61238854d4cd # Backend endpoint, remove this line if you're using Netlify.
+  endpoint: https://getform.io/f/bejjwdra # Backend endpoint, remove this line if you're using Netlify.
   # file: true # Enable file upload
   # fileField: image # The name of file field.
   # reCaptcha:
     # siteKey: ""
 
 repo:
-  url: https://github.com/razonyang/hugo-theme-bootstrap-skeleton
+  url: https://github.com/psychosis-Jo/my-blog
   branch: main
   # subPath: exampleSite
   # dateFormat: 02/01/2006, 15:04:05 PM
@@ -259,9 +260,9 @@ repo:
 topAppBar:
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   social:
-    github: razonyang/hugo-theme-bootstrap
-    patreon: razonyang
-    paypal: razonyang
+    github: psychosis-Jo/my-blog
+    # patreon: ""
+    # paypal: ""
 
 docs:
   nav:
@@ -273,57 +274,59 @@ docs:
 
 social:
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
-  email: user@domain.tld
-  facebook: yourfacebookusername
-  github: razonyang/hugo-theme-bootstrap
-  gitlab: yourgitlabusername
-  linkedin: yourlinkedinusername
-  xing: yourxingusername
-  stackoverflow: yourstackoverflowuserid
-  twitter: yourtwitterusername
-  weibo: yourweibousername
-  zhihu: yourzhihuusername
-  instagram: yourinstagramusername
-  quora: yourquorausername
-  tumblr: yourtumblrusername
-  reddit: yourredditusername
-  telegram: yourtelegramusername
-  qq: yourqqnumber
-  dockerhub: yourdockerhubusername
-  bitbucket: yourbitbucketworkspaceid
-  kaggle: yourkaggleusername
-  medium: yourmediumusername # Medium username or custom domain(e.g. https://custom.domain.tld).
-  lastfm: yourlastfmusername
-  bilibili: yourbilibiliuserid
-  youtube: youryoutubechannelid
-  discord: yourdiscordinvitecode
-  discourse: https://yourforum.tld
-  facebookgroup: yourfacebookgroupname
-  tiktok: yourtiktokusername
-  pinterest: yourpinterestusername
-  mastodon: yourmastodonusername
-  liberapay: yourliberapayaccount
-  paypal: razonyang
-  patreon: razonyang
-  tipeee: yourtipeeeaccount-fr
+  email: fangwuxin99@gmail.com
+  bilibili: https://space.bilibili.com/34475434
+  twitter: wuxin_fang
+  github: psychosis-Jo/my-blog
+  gitlab: psychosis-Jo
+
+  # facebook: yourfacebookusername
+  # linkedin: yourlinkedinusername
+  # xing: yourxingusername
+  # stackoverflow: yourstackoverflowuserid
+  # weibo: yourweibousername
+  # zhihu: yourzhihuusername
+  # instagram: yourinstagramusername
+  # quora: yourquorausername
+  # tumblr: yourtumblrusername
+  # reddit: yourredditusername
+  # telegram: yourtelegramusername
+  # qq: yourqqnumber
+  # dockerhub: yourdockerhubusername
+  # bitbucket: yourbitbucketworkspaceid
+  # kaggle: yourkaggleusername
+  # medium: yourmediumusername # Medium username or custom domain(e.g. https://custom.domain.tld).
+  # lastfm: yourlastfmusername
+
+  # youtube: youryoutubechannelid
+  # discord: yourdiscordinvitecode
+  # discourse: https://yourforum.tld
+  # facebookgroup: yourfacebookgroupname
+  # tiktok: yourtiktokusername
+  # pinterest: yourpinterestusername
+  # mastodon: yourmastodonusername
+  # liberapay: yourliberapayaccount
+  # paypal: yourpaypal
+  # patreon: yourpatreon
+  # tipeee: yourtipeeeaccount-fr
 
 author:
   name: 方勿信
   # avatar: images/profile.png # Avatar image. Default to "images/profile.webp".
-  bio: '终身学习小趴菜, 理想主义的赌徒, AI全栈工程师.'
-  company: Company # HTML markup are supported, such as: <a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>.
-  location: Earth # HTML markup are supported, such as: <a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>.
-  # about: https://razonyang.com # The external about page. The internal about page will be used if not set.
-  params: {
-    # layout: compact
-  }
+  bio: '终身学习小趴菜/理想主义的赌徒/AI全栈工程师'
+  # company: Company # HTML markup are supported, such as: <a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>.
+  # location: Earth # HTML markup are supported, such as: <a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>.
+  # # about: https://razonyang.com # The external about page. The internal about page will be used if not set.
+  # params: {
+  #   # layout: compact
+  # }
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   social:
     email: fangwuxin99@gmail.com
     github: psychosis-Jo
     twitter: wuxin_fang
-    patreon: ""
-    paypal: ""
-    rss: "" # Remove RSS
+    # patreon: ""
+    # paypal: ""
+    # rss: "" # Remove RSS
 
 hasCJKLanguage: true  # 启用中日韩文字支持
