@@ -46,3 +46,22 @@ markup:
     lineNos: true
     noClasses: false
     lineNumbersInTable: false
+  tableOfContents:
+    ordered: false    # 禁用目录自动编号
+  goldmark:
+    renderer:
+      unsafe: false
+    parser:
+      autoHeadingID: true
+      autoHeadingIDType: github
+    extensions:
+      headingOffset: 0
+  image:
+    enableRaw: true
+
+
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+  authors: authors
